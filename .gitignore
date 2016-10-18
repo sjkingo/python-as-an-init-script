@@ -1,0 +1,5 @@
+download/
+initramfs/
+*.gz
+linux-*/
+Python-*/

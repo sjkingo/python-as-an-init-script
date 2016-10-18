@@ -1,0 +1,8 @@
+#!/bin/busybox sh
+
+/bin/busybox mount -t proc proc /proc
+/bin/busybox mount -t sysfs sysfs /sys
+/bin/busybox mount -t devtmpfs none /dev
+
+export PYTHONHOME="/"
+exec /bin/python
